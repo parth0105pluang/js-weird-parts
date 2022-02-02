@@ -10,3 +10,4 @@ var  a = "Hello World";
 function b(){
 
 }
+// can be acc. using this.a and this.b
