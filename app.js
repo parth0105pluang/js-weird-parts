@@ -1,13 +1,16 @@
-var tony = {
-    firstname:"Tony",
-    lastname:"Sharma",
-    address:{
-    street:"Random Street",
-    city:"New York" 
-    }
-};
-function greet(person){
-    console.log("Hi"+person.firstname+person.lastname);
+var objectLiteral ={
+    firstname:"Mary",
+    isAProgrammer: true
 }
-greet(tony);
-greet({firstname:"sharmil",lastname:"sharma"});
+console.log(objectLiteral);
+console.log(JSON.stringify(objectLiteral));
+var jsonValue = JSON.parse('{"firstname":"Mary","isAProgrammer": true}');
+console.log(jsonValue);
+/*
+json
+{
+    "firstname":"Mary",
+    "isAProgrammer": true
+}
+json is a subset of js object notation
+*/
