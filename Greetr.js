@@ -64,7 +64,7 @@
                throw "Missing jquery selector"; 
             }
             var msg;
-            if(fromal){
+            if(formal){
                 msg= this.formalGreeting();
             }
             else{
